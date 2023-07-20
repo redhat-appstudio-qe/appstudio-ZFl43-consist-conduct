@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-ewru
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-ewru@sha256:6ee2f9758c322b85882d6eb2ca456806bc472c58cca828f89818f71f4415a6cb
         name: my-nodejs
         ports:
         - containerPort: 3001
